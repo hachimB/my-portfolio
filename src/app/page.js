@@ -48,7 +48,7 @@ export default function Home() {
             <p><strong>Languages:</strong> Python, C, JavaScript</p>
             <p><strong>Web:</strong> HTML, CSS, Next.js, Flask</p>
             <p><strong>Tools:</strong> Git, GitHub, VS Code, Linux</p>
-            <p><strong>Databases:</strong> MySQL, MongoDB</p>
+            <p><strong>Databases:</strong> MySQL</p>
             <p><strong>Networking:</strong> IP Addressing, basic Routing, OSI Model, TCP/UDP</p>
             <p><strong>Soft Skills:</strong> Problem Solving, Teamwork, Adaptability</p>
           </div>

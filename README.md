@@ -17,7 +17,7 @@ I'm a passionate **Software Engineering student** with a deep interest in **back
 - **Languages:** Python, C, JavaScript
 - **Frameworks:** Next.js, Flask
 - **Tools:** Git, GitHub, Linux, VS Code
-- **Databases:** MySQL, MongoDB
+- **Databases:** MySQL
 - **Other:** Networking basics (IP addressing, TCP/UDP, OSI model)
 
 ---
