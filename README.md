@@ -67,12 +67,5 @@ I'm a passionate **Software Engineering student** with a deep interest in **back
 
 👉 [Visit my Portfolio](https://your-vercel-link.vercel.app)
 
----
-
-## 🧾 License
-
-This project is open source under the [MIT License](LICENSE).
-
----
 
 > Built with ❤️ using modern web tech.
