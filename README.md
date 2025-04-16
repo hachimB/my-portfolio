@@ -1,4 +1,4 @@
-# 🧑‍💻 Hachim Boubacar – Portfolio
+#   Hachim Boubacar – Portfolio
 
 Welcome to my personal developer portfolio! This site showcases my journey, skills, certifications, and the projects I've built during my studies and self-learning in backend development.
 
