@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧑‍💻 Hachim Boubacar – Portfolio
 
-## Getting Started
+Welcome to my personal developer portfolio! This site showcases my journey, skills, certifications, and the projects I've built during my studies and self-learning in backend development.
 
-First, run the development server:
+> Built with 💻 Next.js, Tailwind CSS, and hosted on [Vercel](https://vercel.com).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 About Me
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+I'm a passionate **Software Engineering student** with a deep interest in **backend development**, system programming, and computer networking. I enjoy building meaningful tools and contributing to collaborative projects.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Languages:** Python, C, JavaScript
+- **Frameworks:** Next.js, Flask
+- **Tools:** Git, GitHub, Linux, VS Code
+- **Databases:** MySQL, MongoDB
+- **Other:** Networking basics (IP addressing, TCP/UDP, OSI model)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📚 Education
 
-## Deploy on Vercel
+- 🎓 **Master’s in Software Engineering** – SUP MTI, Rabat (2024–Ongoing)  
+- 🎓 **Bachelor’s in Computer Systems Engineering** – SUP MTI, Morocco (2021–2024)  
+- 🎓 **ALX Software Engineering Program** – (2023–2024)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💼 Projects
+
+| Project         | Description | Link |
+|----------------|-------------|------|
+| **CheckStudents** | Mobile app for student attendance management | [GitHub Repo](https://github.com/hachimB/checkStudents) |
+| **SimpleShell** | UNIX command-line shell written in C (Team Project) | [GitHub Repo](https://github.com/hachimB/simple_shell) |
+| **Airbnb Clone** | Backend-focused clone of the Airbnb app (Team Project) | [GitHub Repo](https://github.com/hachimB/airbnb_clone) |
+
+> And more projects from **ALX** and **Boot.dev** available on my GitHub.
+
+---
+
+## 📜 Certifications
+
+- ALX Software Engineering Certificate  
+- Boot.dev Certificates:
+  - Python
+  - Python OOP
+  - Functional Programming
+  - Git
+  - Linux
+
+---
+
+## 📬 Contact Me
+
+- 📧 Email: [boubacarhachim@gmail.com](mailto:boubacarhachim@gmail.com)  
+- 💼 LinkedIn: [Hachim Boubacar](https://www.linkedin.com/in/hachim-boubacar-475831254/)  
+- 🧑‍💻 GitHub: [@hachimB](https://github.com/hachimB)  
+- 📱 WhatsApp: [Chat Now](https://wa.me/22790972882)
+
+---
+
+## 🌐 Live Site
+
+👉 [Visit my Portfolio](https://your-vercel-link.vercel.app)
+
+---
+
+## 🧾 License
+
+This project is open source under the [MIT License](LICENSE).
+
+---
+
+> Built with ❤️ using modern web tech.

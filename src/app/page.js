@@ -1,102 +1,126 @@
 import Image from "next/image";
+import React from "react";
+import { Fade, Slide } from "react-awesome-reveal";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="min-h-screen bg-[#0d0d0d] text-[#f0f0f0] p-6">
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+      {/* Hero Section */}
+      <Fade direction="up" triggerOnce>
+        <section className="max-w-3xl mx-auto text-center py-20">
+          <h1 className="text-4xl md:text-5xl font-bold text-white">Hachim Boubacar</h1>
+          <p className="mt-4 text-lg text-gray-400">
+            Backend Developer | Software Engineering Student | Python Enthusiast
+          </p>
+        </section>
+      </Fade>
+
+      {/* About Section */}
+      <Fade direction="up" triggerOnce>
+        <section className="max-w-3xl mx-auto py-10 border-t border-gray-700">
+          <h2 className="text-3xl font-semibold">About Me</h2>
+          <p className="mt-4 text-gray-300">
+            I am a motivated software engineering student with a passion for backend development and networking.
+            With hands-on experience in Python, C, and JavaScript, I thrive on solving complex problems and building useful tools.
+          </p>
+        </section>
+      </Fade>
+
+      {/* Education Section */}
+      <Fade direction="up" triggerOnce>
+        <section className="max-w-3xl mx-auto py-10 border-t border-gray-700">
+          <h2 className="text-3xl font-semibold">Education</h2>
+          <ul className="mt-4 text-gray-300 space-y-4">
+            <li>🎓 <strong>Master’s Degree in Software Engineering</strong> — SUP MTI, Rabat (2024 - Ongoing)</li>
+            <li>🎓 <strong>Bachelor’s in Computer Systems Engineering</strong> — SUP MTI, Morocco (2021 - 2024)</li>
+            <li>🎓 <strong>ALX Software Engineering Program</strong> — (2023 - 2024)</li>
+            <li>🎓 <strong>High School Diploma</strong> — CSP TAYAMANA, Niger (2018 - 2021)</li>
+          </ul>
+        </section>
+      </Fade>
+
+      {/* Skills Section */}
+      <Fade direction="up" triggerOnce>
+        <section className="max-w-3xl mx-auto py-10 border-t border-gray-700">
+          <h2 className="text-3xl font-semibold">Skills</h2>
+          <div className="mt-4 text-gray-300 space-y-2">
+            <p><strong>Languages:</strong> Python, C, JavaScript</p>
+            <p><strong>Web:</strong> HTML, CSS, Next.js, Flask</p>
+            <p><strong>Tools:</strong> Git, GitHub, VS Code, Linux</p>
+            <p><strong>Databases:</strong> MySQL, MongoDB</p>
+            <p><strong>Networking:</strong> IP Addressing, basic Routing, OSI Model, TCP/UDP</p>
+            <p><strong>Soft Skills:</strong> Problem Solving, Teamwork, Adaptability</p>
+          </div>
+        </section>
+      </Fade>
+
+      {/* Projects Section */}
+      <Fade direction="up" triggerOnce>
+        <section className="max-w-3xl mx-auto py-10 border-t border-gray-700">
+          <h2 className="text-3xl font-semibold">Projects</h2>
+          <div className="mt-4 space-y-4">
+            <div>
+              <p className="text-gray-400">CheckStudents - A mobile app for student attendance management.</p>
+              <a href="https://github.com/hachimB/checkStudents" className="text-blue-400 hover:underline">View on GitHub</a>
+            </div>
+            <div>
+              <p className="text-gray-400">tictoe - game.</p>
+              <a href="https://tic-toe-game-k0z2w3gjk-bookspheres-projects.vercel.app/" target="_blank" className="text-blue-400 hover:underline">View here</a>
+            </div>
+            <div>
+              <p className="text-gray-400">SimpleShell - A simple UNIX command-line shell built from scratch</p>
+              <a href="https://github.com/hachimB/simple_shell" target="_blank" className="text-blue-400 hover:underline">View on GitHub</a>
+            </div>
+            <div>
+              <p className="text-gray-400">Airbnb Clone - A clone of the popular Airbnb app (backend focused).</p>
+              <a href="https://github.com/hachimB/airbnb_clone" target="_blank" className="text-blue-400 hover:underline">View on GitHub</a>
+            </div>
+            <div>
+              <p className="text-gray-400">...and many more from ALX and Boot.dev</p>
+              <a href="https://github.com/hachimB" className="text-blue-400 hover:underline">Explore GitHub</a>
+            </div>
+          </div>
+        </section>
+      </Fade>
+
+      {/* Certifications Section */}
+      <Slide direction="up" triggerOnce>
+        <section className="max-w-3xl mx-auto py-10 border-t border-gray-700">
+          <h2 className="text-3xl font-semibold">Certifications</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <Image src="/ALX_certificate.png" alt="ALX Certificate" width={500} height={350} className="rounded-lg shadow-lg" />
+            <Image src="/bootdev_certificate_linux.png" alt="Linux Certificate" width={500} height={350} className="rounded-lg shadow-lg" />
+            <Image src="/bootdev_certificate_git1.png" alt="Git Certificate" width={500} height={350} className="rounded-lg shadow-lg" />
+            <Image src="/bootdev_certificate_python1.png" alt="Python Certificate" width={500} height={350} className="rounded-lg shadow-lg" />
+            <Image src="/bootdev_certificate_python_OOP.png" alt="OOP Certificate" width={500} height={350} className="rounded-lg shadow-lg" />
+            <Image src="/bootdev_certificate_Functional_Programming.png" alt="Functional Programming Cert" width={500} height={350} className="rounded-lg shadow-lg" />
+          </div>
+        </section>
+      </Slide>
+
+      {/* Contact Section */}
+      <Fade direction="up" triggerOnce>
+        <section className="max-w-3xl mx-auto py-10 border-t border-gray-700 text-center">
+          <h2 className="text-3xl font-semibold">Contact</h2>
+          <p className="mt-4 text-gray-400">
+            Email: <a href="mailto:boubacarhachim@gmail.com" target="_blank" className="text-blue-400 hover:underline">boubacarhachim@gmail.com</a>
+          </p>
+          <p className="mt-4 text-gray-400">
+            Linkedin: <a href="https://www.linkedin.com/in/hachim-boubacar-475831254/" target="_blank" className="text-blue-400 hover:underline">Let&apos;s Connect</a>
+          </p>
+          <p className="mt-4 text-gray-400">
+            GitHub: <a href="https://github.com/hachimB" target="_blank" className="text-blue-400 hover:underline">GitHub</a>
+          </p>
+          <p className="text-gray-400">
+            WhatsApp: <a href="https://wa.me/22790972882" target="_blank" className="text-green-400 hover:underline">Chat on WhatsApp</a>
+          </p>
+        </section>
+      </Fade>
+
+      {/* Footer */}
+      <footer className="text-center py-6 border-t border-gray-700 mt-10 text-gray-500 text-sm">
+        &copy; {new Date().getFullYear()} Hachim Boubacar. All rights reserved.
       </footer>
     </div>
   );
